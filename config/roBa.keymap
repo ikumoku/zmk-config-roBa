@@ -89,7 +89,7 @@
             bindings = <
 &kp ASTERISK          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_PARENTHESIS                              &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp SQT      &kp LESS_THAN  &kp GREATER_THAN
 &kp PLUS              &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT_BRACKET      &trans      &kp UNDERSCORE  &kp RIGHT_BRACKET      &kp MINUS        &kp AT_SIGN  &kp DOLLAR     &kp COLON
-&mt LEFT_SHIFT EQUAL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT_BRACE        &trans      &trans          &kp RIGHT_BRACE        &trans           &trans       &trans         &kp UNDERSCORE
+&mt LEFT_SHIFT EQUAL  &kp NUMBER_1     &kp NUMBER_2     &kp KP_NUMBER_3  &kp LEFT_BRACE        &trans      &trans          &kp RIGHT_BRACE        &trans           &trans       &trans         &kp UNDERSCORE
 &kp PERIOD            &kp NUMBER_0     &trans           &trans           &trans                &trans      &trans          &trans                                                              &trans
             >;
         };
