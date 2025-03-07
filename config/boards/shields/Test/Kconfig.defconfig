@@ -10,6 +10,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_KEYMAP_JP
+    bool "Enable Japanese Keymap"
     default y
 
     
@@ -24,6 +25,7 @@ config ZMK_SPLIT
     default y
 
 config ZMK_KEYMAP_JP
+    bool "Enable Japanese Keymap"
     default y
 
 
