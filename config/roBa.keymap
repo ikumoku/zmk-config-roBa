@@ -7,7 +7,6 @@
 #define SCROLL 5
 #define BLUETOOTH 6
 
-
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -140,10 +139,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp INT_HENKAN           &kp INT_MUHENKAN  &kp INT_KATAKANAHIRAGANA  &kp INT_HENKAN  &kp INTERNATIONAL_5
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LANG_ZENKAKUHANKAKU  &kp LC(SPACE)     &trans                    &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                   &trans            &trans                    &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                               &trans
+&trans  &trans  &trans      &trans       &trans                      &kp INT_HENKAN           &kp INT_MUHENKAN  &kp INT_KATAKANAHIRAGANA  &kp INT_HENKAN  &kp INTERNATIONAL_5
+&trans  &trans  &trans      &trans       &trans  &trans      &trans  &kp LANG_ZENKAKUHANKAKU  &kp LC(SPACE)     &trans                    &trans          &trans
+&trans  &trans  &kp K_COPY  &kp K_PASTE  &trans  &trans      &trans  &trans                   &trans            &trans                    &trans          &trans
+&trans  &trans  &trans      &trans       &trans  &trans      &trans  &trans                                                                               &trans
             >;
         };
     };
