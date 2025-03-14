@@ -60,7 +60,7 @@
         automouse-layer = <4>;
         scroll-layers = <5>;
 
-        scroll-delay-ms = <150>; // ← この行を追加（好みの時間に設定）
+      //  scroll-delay-ms = <150>; // ← この行を追加（好みの時間に設定）
        
     };
 };
