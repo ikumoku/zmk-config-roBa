@@ -149,10 +149,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans     &kp NUMBER_1  &kp NUMBER_2  &trans                      &kp INT_HENKAN           &kp INT_MUHENKAN  &kp INT_KATAKANAHIRAGANA  &kp INT_HENKAN  &kp INTERNATIONAL_5
-&trans  &kp LC(S)  &trans        &trans        &trans  &trans      &trans  &kp LANG_ZENKAKUHANKAKU  &kp LC(SPACE)     &trans                    &trans          &trans
-&trans  &trans     &kp LC(C)     &kp LC(V)     &trans  &trans      &trans  &trans                   &trans            &trans                    &trans          &trans
-&trans  &trans     &trans        &trans        &trans  &trans      &trans  &trans                                                                               &trans
+&trans     &trans     &kp NUMBER_1  &kp NUMBER_2  &trans                      &kp INT_HENKAN           &kp INT_MUHENKAN  &kp INT_KATAKANAHIRAGANA  &kp INT_HENKAN  &kp INTERNATIONAL_5
+&kp LC(A)  &kp LC(S)  &trans        &trans        &trans  &trans      &trans  &kp LANG_ZENKAKUHANKAKU  &kp LC(SPACE)     &trans                    &trans          &trans
+&trans     &trans     &kp LC(C)     &kp LC(V)     &trans  &trans      &trans  &trans                   &trans            &trans                    &trans          &trans
+&trans     &trans     &trans        &trans        &trans  &trans      &trans  &trans                                                                               &trans
             >;
         };
     };
