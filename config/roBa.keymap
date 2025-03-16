@@ -149,10 +149,10 @@
 
         layer_7 {
             bindings = <
-&kp TILDE      &kp CARET                 &kp EQUAL         &kp MINUS         &kp UNDERSCORE                          &kp COMMA                 &kp PERIOD      &kp SLASH      &kp LS(LCTRL)             &kp NON_US_BACKSLASH
-&kp ASTERISK   &kp ASTERISK              &kp KP_ASTERISK   &kp RS(NUMBER_8)  &kp LS(LEFT_BRACE)  &trans      &trans  &kp LS(NON_US_BACKSLASH)  &kp LC(SPACE)   &kp AT_SIGN    &kp LS(NON_US_BACKSLASH)  &kp LEFT_BRACKET
-&kp EQUAL      &kp RS(LEFT_PARENTHESIS)  &kp LS(KP_EQUAL)  &kp LS(N5)        &kp LS(NUMBER_6)    &trans      &trans  &kp LS(COMMA)             &kp LS(PERIOD)  &kp RS(SLASH)  &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)
-&kp LS(LCTRL)  &kp LCTRL                 &kp LS(N9)        &trans            &trans              &trans      &trans  &trans                                                                             &trans
+&kp MINUS      &kp LS(MINUS)  &kp EQUAL   &kp A   &kp A                       &kp COMMA                 &kp PERIOD      &kp SLASH      &kp LS(LCTRL)             &kp NON_US_BACKSLASH
+&kp A          &kp A          &kp A       &kp A   &kp A   &trans      &trans  &kp LS(NON_US_BACKSLASH)  &kp LC(SPACE)   &kp AT_SIGN    &kp LS(NON_US_BACKSLASH)  &kp LEFT_BRACKET
+&kp A          &kp A          &kp A       &kp A   &kp A   &trans      &trans  &kp LS(COMMA)             &kp LS(PERIOD)  &kp RS(SLASH)  &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)
+&kp LS(MINUS)  &kp LCTRL      &kp LS(N9)  &trans  &trans  &trans      &trans  &trans                                                                             &trans
             >;
         };
 
