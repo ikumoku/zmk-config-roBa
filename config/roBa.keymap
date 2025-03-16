@@ -83,7 +83,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp LS(SEMICOLON)
+&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMI
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &lt 6 LG(TAB)  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_SHIFT    &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
             >;
@@ -103,7 +103,7 @@
         NUM {
             bindings = <
 &kp ASTERISK          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK                                      &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AMPERSAND     &kp LESS_THAN      &kp GREATER_THAN
-&kp PLUS              &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &trans      &kp UNDERSCORE  &kp BACKSLASH         &kp MINUS        &kp LEFT_BRACKET  &kp LS(BACKSLASH)  &kp SQT
+&kp COLON             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &trans      &kp UNDERSCORE  &kp BACKSLASH         &kp MINUS        &kp LEFT_BRACKET  &kp LS(BACKSLASH)  &kp SQT
 &mt LEFT_SHIFT EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE    &trans      &trans          &kp PIPE              &trans           &trans            &trans             &kp RS(EQUAL)
 &kp PERIOD            &kp NUMBER_0  &trans        &trans        &trans             &trans      &trans          &trans                                                                      &trans
             >;
@@ -149,10 +149,10 @@
 
         layer_7 {
             bindings = <
-&kp LS(EQUAL)  &kp EQUAL      &kp SQT           &kp LS(NUMBER_2)  &kp SEMICOLON                           &kp MINUS                 &kp LS(INT_MUHENKAN)  &kp LCTRL      &kp LS(LCTRL)      &kp NON_US_BACKSLASH
-&kp LC(A)      &kp ASTERISK   &kp PLUS          &kp LEFT_BRACE    &kp LS(LEFT_BRACE)  &trans      &trans  &kp LS(NON_US_BACKSLASH)  &kp LC(SPACE)         &kp AT_SIGN    &kp LS(AT_SIGN)    &kp LEFT_BRACKET
-&kp COLON      &kp RS(COLON)  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)    &trans      &trans  &kp LS(LEFT_BRACKET)      &kp COLON             &kp RS(COLON)  &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)
-&kp LS(N7)     &kp LS(N8)     &kp LS(N9)        &trans            &trans              &trans      &trans  &trans                                                                            &trans
+&kp COLON        &kp COLON                 &kp RIGHT_BRACKET          &kp LS(RIGHT_BRACE)  &kp SEMICOLON                           &kp COMMA                 &kp PERIOD      &kp SLASH      &kp LS(LCTRL)             &kp NON_US_BACKSLASH
+&kp LC(A)        &kp ASTERISK              &kp PLUS                   &kp LEFT_BRACE       &kp LS(LEFT_BRACE)  &trans      &trans  &kp LS(NON_US_BACKSLASH)  &kp LC(SPACE)   &kp AT_SIGN    &kp LS(NON_US_BACKSLASH)  &kp LEFT_BRACKET
+&kp EXCLAMATION  &kp RS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp LS(N5)           &kp LS(NUMBER_6)    &trans      &trans  &kp LS(COMMA)             &kp LS(PERIOD)  &kp RS(SLASH)  &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)
+&kp LS(LCTRL)    &kp LCTRL                 &kp LS(N9)                 &trans               &trans              &trans      &trans  &trans                                                                             &trans
             >;
         };
     };
