@@ -149,10 +149,10 @@
 
         layer_7 {
             bindings = <
-&kp MINUS      &kp LS(MINUS)  &kp EQUAL   &kp A   &kp A                       &kp COMMA                 &kp PERIOD      &kp SLASH      &kp LS(LCTRL)             &kp NON_US_BACKSLASH
-&kp A          &kp A          &kp A       &kp A   &kp A   &trans      &trans  &kp LS(NON_US_BACKSLASH)  &kp LC(SPACE)   &kp AT_SIGN    &kp LS(NON_US_BACKSLASH)  &kp LEFT_BRACKET
-&kp A          &kp A          &kp A       &kp A   &kp A   &trans      &trans  &kp LS(COMMA)             &kp LS(PERIOD)  &kp RS(SLASH)  &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)
-&kp LS(MINUS)  &kp LCTRL      &kp LS(N9)  &trans  &trans  &trans      &trans  &trans                                                                             &trans
+&kp MINUS  &kp LS(MINUS)   &kp EQUAL   &kp RS(A)  &kp LS(INTERNATIONAL_8)                      &kp COMMA                 &kp PERIOD      &kp SLASH      &kp LS(LCTRL)             &kp NON_US_BACKSLASH
+&kp UNDER  &kp UNDERSCORE  &kp A       &kp A      &kp A                    &trans      &trans  &kp LS(NON_US_BACKSLASH)  &kp LC(SPACE)   &kp AT_SIGN    &kp LS(NON_US_BACKSLASH)  &kp LEFT_BRACKET
+&kp A      &kp A           &kp A       &kp A      &kp A                    &trans      &trans  &kp LS(COMMA)             &kp LS(PERIOD)  &kp RS(SLASH)  &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)
+&kp LS(A)  &kp A           &kp LS(N9)  &trans     &trans                   &trans      &trans  &trans                                                                             &trans
             >;
         };
 
