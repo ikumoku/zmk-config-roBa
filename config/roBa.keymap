@@ -149,10 +149,10 @@
 
         layer_7 {
             bindings = <
-&trans     &trans     &kp NUMBER_1  &kp NUMBER_2  &trans                      &kp INT_HENKAN           &kp INT_MUHENKAN  &kp INT_KATAKANAHIRAGANA  &kp INT_HENKAN  &kp INTERNATIONAL_5
-&kp LC(A)  &kp LC(S)  &trans        &trans        &trans  &trans      &trans  &kp LANG_ZENKAKUHANKAKU  &kp LC(SPACE)     &trans                    &trans          &trans
-&trans     &trans     &kp LC(C)     &kp LC(V)     &trans  &trans      &trans  &trans                   &trans            &trans                    &trans          &trans
-&trans     &trans     &trans        &trans        &trans  &trans      &trans  &trans                                                                               &trans
+&kp LS(EQUAL)  &kp EQUAL      &kp SQT           &kp LS(NUMBER_2)  &kp SEMICOLON                           &kp MINUS                 &kp LS(INT_MUHENKAN)  &kp LCTRL      &kp LS(LCTRL)      &kp NON_US_BACKSLASH
+&kp LC(A)      &kp ASTERISK   &kp PLUS          &kp LEFT_BRACE    &kp LS(LEFT_BRACE)  &trans      &trans  &kp LS(NON_US_BACKSLASH)  &kp LC(SPACE)         &kp AT_SIGN    &kp LS(AT_SIGN)    &kp LEFT_BRACKET
+&kp COLON      &kp RS(COLON)  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)    &trans      &trans  &kp LS(LEFT_BRACKET)      &kp COLON             &kp RS(COLON)  &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)
+&kp LS(N7)     &kp LS(N8)     &kp LS(N9)        &trans            &trans              &trans      &trans  &trans                                                                            &trans
             >;
         };
     };
