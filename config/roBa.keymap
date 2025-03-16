@@ -55,6 +55,11 @@
             bindings = <&kp C_VOL_DN>;
             key-positions = <17 18>;
         };
+
+        mute {
+            bindings = <&kp K_MUTE>;
+            key-positions = <29 30>;
+        };
     };
 
     macros {
