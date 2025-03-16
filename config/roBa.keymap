@@ -102,10 +102,10 @@
 
         NUM {
             bindings = <
-&kp LS(N8)            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK                                      &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AMPERSAND     &kp LESS_THAN      &kp GREATER_THAN
-&kp COLON             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &trans      &kp UNDERSCORE  &kp BACKSLASH         &kp MINUS        &kp LEFT_BRACKET  &kp LS(BACKSLASH)  &kp SQT
-&mt LEFT_SHIFT MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE    &trans      &trans          &kp PIPE              &kp LS(N5)       &kp LS(NUMBER_6)  &kp LS(NUMBER_7)   &kp RS(EQUAL)
-&kp PERIOD            &kp NUMBER_0  &trans        &trans        &trans             &trans      &trans          &trans                                                                      &trans
+&kp LS(N8)                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK                                      &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AMPERSAND     &kp LESS_THAN      &kp GREATER_THAN
+&kp COLON                 &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &trans      &kp UNDERSCORE  &kp BACKSLASH         &kp MINUS        &kp LEFT_BRACKET  &kp LS(BACKSLASH)  &kp SQT
+&mt LEFT_SHIFT LS(MINUS)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE    &trans      &trans          &kp PIPE              &kp LS(N5)       &kp LS(NUMBER_6)  &kp LS(NUMBER_7)   &kp RS(EQUAL)
+&kp PERIOD                &kp NUMBER_0  &trans        &trans        &trans             &trans      &trans          &trans                                                                      &trans
             >;
         };
 
@@ -149,10 +149,10 @@
 
         layer_7 {
             bindings = <
-&kp MINUS  &kp LS(MINUS)   &kp EQUAL   &kp RS(A)  &kp LS(INTERNATIONAL_8)                      &kp COMMA                 &kp PERIOD      &kp SLASH      &kp LS(LCTRL)             &kp NON_US_BACKSLASH
-&kp UNDER  &kp UNDERSCORE  &kp A       &kp A      &kp A                    &trans      &trans  &kp LS(NON_US_BACKSLASH)  &kp LC(SPACE)   &kp AT_SIGN    &kp LS(NON_US_BACKSLASH)  &kp LEFT_BRACKET
-&kp A      &kp A           &kp A       &kp A      &kp A                    &trans      &trans  &kp LS(COMMA)             &kp LS(PERIOD)  &kp RS(SLASH)  &kp LS(NON_US_BACKSLASH)  &kp LS(RIGHT_BRACKET)
-&kp LS(A)  &kp A           &kp LS(N9)  &trans     &trans                   &trans      &trans  &trans                                                                             &trans
+&kp A            &kp LS(MINUS)     &kp A            &kp RS(A)   &kp LS(A)                         &kp NUMBER_6          &kp NUMBER_7              &kp NUMBER_8           &kp NUMBER_0              &kp MINUS
+&kp LS(N8)       &kp LS(NUMBER_8)  &kp KP_NUMBER_8  &kp RS(N8)  &kp ASTRK  &trans      &trans     &kp LCTRL             &kp LC(NON_US_BACKSLASH)  &kp AT_SIGN            &kp LS(LEFT_BRACKET)      &kp LEFT_BRACKET
+&kp KP_ASTERISK  &kp UNDERSCORE    &kp UNDERSCORE   &kp A       &kp A      &trans      &trans     &kp SEMICOLON         &kp COLON                 &kp RS(RIGHT_BRACKET)  &kp LS(NON_US_BACKSLASH)  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT   &kp A             &kp LS(N9)       &trans      &trans     &trans      &kp SLASH  &kp NON_US_BACKSLASH                                                                             &trans
             >;
         };
 
