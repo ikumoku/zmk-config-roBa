@@ -107,7 +107,7 @@
 
         NUM {
             bindings = <
-&kp KP_ASTERISK           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK                                      &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AMPERSAND     &kp LESS_THAN      &kp GREATER_THAN
+&kp KP_ASTERISK           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(ASTRK)                                  &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp AMPERSAND     &kp LESS_THAN      &kp GREATER_THAN
 &kp COLON                 &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &trans      &kp UNDERSCORE  &kp BACKSLASH         &kp MINUS        &kp LEFT_BRACKET  &kp LS(BACKSLASH)  &kp SQT
 &mt LEFT_SHIFT LS(MINUS)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE    &trans      &trans          &kp PIPE              &kp LS(N5)       &kp LS(NUMBER_6)  &kp LS(NUMBER_7)   &kp RS(EQUAL)
 &kp PERIOD                &kp NUMBER_0  &trans        &trans        &trans             &trans      &trans          &trans                                                                      &trans
