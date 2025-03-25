@@ -62,7 +62,7 @@
         };
 
         zoomout {
-            bindings = <&kp LC(SLASH)>;
+            bindings = <&kp LC(BACKSLASH)>;
             key-positions = <18 19>;
         };
 
