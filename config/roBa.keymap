@@ -60,6 +60,21 @@
             bindings = <&kp K_MUTE>;
             key-positions = <29 30>;
         };
+
+        zoomin {
+            bindings = <&kp LC(PLUS)>;
+            key-positions = <6 7>;
+        };
+
+        zoomout {
+            bindings = <&none>;
+            key-positions = <18 19>;
+        };
+
+        zoom2 {
+            bindings = <&kp LC(COLON)>;
+            key-positions = <30 31>;
+        };
     };
 
     macros {
