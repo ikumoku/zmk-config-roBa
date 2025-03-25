@@ -61,19 +61,14 @@
             key-positions = <29 30>;
         };
 
-        zoomin {
-            bindings = <&kp LC(PLUS)>;
-            key-positions = <6 7>;
-        };
-
         zoomout {
-            bindings = <&none>;
+            bindings = <&kp LC(SLASH)>;
             key-positions = <18 19>;
         };
 
-        zoom2 {
+        zoomin {
             bindings = <&kp LC(COLON)>;
-            key-positions = <30 31>;
+            key-positions = <6 7>;
         };
     };
 
