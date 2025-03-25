@@ -184,7 +184,7 @@
         layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &kp R           &kp D            &trans  &trans  &kp UP_ARROW
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F           &trans           &trans  &trans  &kp DOWN_ARROW
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F           &trans           &mo 5   &trans  &kp DOWN_ARROW
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                           &trans
             >;
