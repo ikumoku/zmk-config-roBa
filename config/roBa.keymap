@@ -67,7 +67,7 @@
         };
 
         zoomin {
-            bindings = <&kp LC(COLON)>;
+            bindings = <&kp LC(MINUS)>;
             key-positions = <6 7>;
         };
 
