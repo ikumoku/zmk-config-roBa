@@ -61,14 +61,14 @@
             key-positions = <29 30>;
         };
 
-        zoomout {
-            bindings = <&kp LC(BACKSLASH)>;
-            key-positions = <18 19>;
+        zoom_in {
+            bindings = <&kp LC(COLON)>;
+            key-positions = <6 7>;
         };
 
-        zoomin {
+        zoom_out {
             bindings = <&kp LC(MINUS)>;
-            key-positions = <6 7>;
+            key-positions = <18 19>;
         };
 
         layer8 {
