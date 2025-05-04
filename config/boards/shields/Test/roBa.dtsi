@@ -13,7 +13,7 @@
         kscan = <&kscan0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
-        
+
             = <&key_physical_attrs 100 100    0   37       0     0     0>  // RC(0,0)
             , <&key_physical_attrs 100 100  100   12       0     0     0>  // RC(0,1)
             , <&key_physical_attrs 100 100  200    0       0     0     0>  // RC(0,2)
@@ -64,10 +64,12 @@
             , <&key_physical_attrs 100 100  100  312       0     0     0>  // RC(3,2)
             , <&key_physical_attrs 100 100  200  300       0     0     0>  // RC(3,3)
             , <&key_physical_attrs 100 100  325  337       0     0     0>  // RC(3,4)
-            , <&key_physical_attrs 100 100  437  350    1000   437   350>  // RC(3,5)
-            , <&key_physical_attrs 100 100  550  387    2000   550   387>  // RC(3,7)
-            , <&key_physical_attrs 100 100  650  387 (-2000)   650   387>  // RC(3,8)
-            , <&key_physical_attrs 100 100  763  350 (-1000)     0   350>  // RC(3,9)
+            , <&key_physical_attrs 100 100  437  350       0     0     0>  // RC(3,5)
+
+            , <&key_physical_attrs 100 100  550  387       0     0     0>  // RC(3,7)
+            , <&key_physical_attrs 100 100  650  387       0     0     0>  // RC(3,8)
+            
+            , <&key_physical_attrs 100 100  763  350       0     0     0>  // RC(3,9)
             , <&key_physical_attrs 100 100 1200  337       0     0     0>  // RC(3,10)
             ;
     };
